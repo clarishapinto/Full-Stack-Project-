@@ -1,0 +1,12 @@
+.adoption-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.pet-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* ensures cards stretch to fit */
+  gap: 1.5rem; /* spacing between cards */
+}

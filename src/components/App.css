@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffdf8;
+  background-image: url('/paw.jpg'); /* ✅ Matches your file name */
+  background-repeat: repeat;
+  background-size: 60px;
+  background-position: top left;
+  min-height: 100vh;
+  color: #333;
+}
+
+
+.container {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  color: #c278b2;
+  margin-bottom: 10px;
+}
+
+h2, h3 {
+  color: #c278b2;
+}
+
+p {
+  font-size: 18px;
+  color: #444;
+}
+
+button {
+  background: #f368e0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #e056fd;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  margin: 24px 0;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+input, textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  margin: 12px 0;
+  font-size: 14px;
+  box-sizing: border-box;
+}

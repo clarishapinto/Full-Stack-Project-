@@ -1,0 +1,42 @@
+/* Full background with paw.jpg */
+.home-background {
+  background-image: url('/paw.jpg'); /* Make sure this is in your public/ folder */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Takes full screen */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+/* Centered content box */
+.home-content {
+  background-color: rgba(255, 255, 255, 0.9); /* Light box to improve text readability */
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+.home-content h1 {
+  font-size: 2.5rem;
+  color: #f368e0;
+  margin-bottom: 20px;
+}
+
+/* Center image below heading */
+.center-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* Paragraph */
+.home-content p {
+  font-size: 1.2rem;
+  color: #444;
+}
